@@ -32,7 +32,6 @@ const submit = () => {
 
 <style scoped>
 .scr {
-  position: fixed;
   overflow-y: scroll;
 }
 </style>
