@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #9EB8CE;
+  background: #000;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.bl {
+  -webkit-filter: brightness(100%);
+}
