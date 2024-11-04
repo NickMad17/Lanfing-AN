@@ -32,6 +32,7 @@ const submit = () => {
 
 <style scoped>
 .scr {
-  overflow: hidden;
+  position: fixed;
+  overflow-y: hidden;
 }
 </style>

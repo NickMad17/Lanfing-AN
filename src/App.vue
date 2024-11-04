@@ -3,7 +3,7 @@ import Form from "./components/Form.vue";
 </script>
 
 <template>
-  <div data-theme="sunset" class="min-h-screen">
+  <div data-theme="sunset" class="min-h-dvh">
     <p>efefm</p>
     <Form v-show="true"/>
   </div>
