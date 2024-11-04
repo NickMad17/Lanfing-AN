@@ -19,7 +19,7 @@ const submit = () => {
 </script>
 
 <template>
-<div class="w-full h-screen flex justify-center absolute pt-4 top-0 bg-second" v-if="!complete">
+<div class="scr w-full h-screen flex justify-center absolute pt-4 top-0 bg-second" v-if="!complete">
   <div class="w-72">
     <h1 class="text-center text-[16px]">Для того что бы попасть дальше тебе надо составить слово, которое было "зашифровано" в <span class="text-blue-100">7-ми</span> открытках.</h1>
     <img src="../assets/stop.png" class="opacity-30">
@@ -31,5 +31,8 @@ const submit = () => {
 </template>
 
 <style scoped>
-
+.scr {
+  position: fixed;
+  overflow-y: scroll;
+}
 </style>
