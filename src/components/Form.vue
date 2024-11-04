@@ -10,8 +10,11 @@ const submit = () => {
   console.log(text.value,answer.toLowerCase())
   if (text.value.toLowerCase() === answer.toLowerCase()) {
     complete.value = true
+  } else {
+    text.value = ''
+    error.value = true
   }
-  error.value = true
+
 }
 </script>
 
