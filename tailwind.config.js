@@ -6,15 +6,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        "second": '#121C22',
-        "main": "#9EB8CE"
+        "second": '#DEF1FF',
+        "tertiary": '#C7D7D0',
+        "boxcol": "#EBEBEB",
+        "main": "#FFF0DC"
       },
     },
   },
   plugins: [daisyui],
   daisyui: {
     themes: [
-      "sunset",
+      "wireframe",
     ]
   }
 }
