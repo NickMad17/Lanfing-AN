@@ -33,7 +33,7 @@ import Header from "./components/Header.vue";
     <section class="relative flex justify-center items-center py-10 bg-tertiary">
       <img class="w-10 absolute bottom-6 left-10 rotate-12" src="./assets/svg/box.svg"/>
       <img class="w-10 absolute bottom-9 right-10 rotate-45" src="./assets/svg/star.svg"/>
-      <p class="text-lg ">Happy birthday to you</p>
+      <p class="text-lg font-[500]">Happy birthday to you</p>
     </section>
     <footer class="relative overflow-hidden">
       <img src="./assets/video/happy.gif" class="w-full border-[4px] border-black">
