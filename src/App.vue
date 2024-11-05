@@ -4,7 +4,7 @@ import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <div data-theme="wireframe" class="min-h-dvh bg-main">
+  <div data-theme="wireframe" class="h-dvh overflow-y-auto bg-main">
     <Former/>
     <Header/>
     <section class="sec rounded">
