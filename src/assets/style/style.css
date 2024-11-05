@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  /*font-family: "Noto Sans", sans-serif;*/
+}
+
 .bl {
   -webkit-filter: brightness(100%);
 }

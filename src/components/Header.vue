@@ -3,12 +3,9 @@
 </script>
 
 <template>
-<header class="w-full bg-main flex justify-center">
-    <video autoplay loop muted playsinline>
-      <source src="../assets/video/atTheTable.mp4" type="video/mp4">
-      Ваш браузер не поддерживает видео.
-    </video>
-</header>
+  <header class="w-full bg-main flex justify-center">
+      <img src="../assets/video/atTheTable2.gif">
+  </header>
 </template>
 
 <style scoped>
