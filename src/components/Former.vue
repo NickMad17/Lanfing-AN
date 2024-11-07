@@ -1,6 +1,7 @@
 <script setup>
 import {ref} from "vue";
 
+const emit = defineEmits(['page']);
 const answer = 'Море'
 const text = ref('')
 const error = ref(false)
@@ -10,6 +11,7 @@ const submit = () => {
   console.log(text.value,answer.toLowerCase())
   if (text.value.toLowerCase() === answer.toLowerCase()) {
     complete.value = true
+    emit('page', true)
   } else {
     text.value = ''
     error.value = true
